@@ -29,14 +29,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+    While they both iterate through elements in an array, `.map` creates a new array applying functions called in the parameters where `.forEach` does not have to do that. 
 
 2. What is the difference between a function and a method?
+    They are both technically functions, however, a method is attached to an object as a property of that object.
 
 3. What is closure?
+    This is a variable that is restricted to a specific function- it is hidden from the global scope. 
 
 4. Describe the four rules of the 'this' keyword.
+    Window/Global Object Binding - Without any specificity, `this` will be the entire window object.
+
+    Implicit binding - When used in a function, the object after `this.` is `this`.
+
+    New Binding - When used in a constructor, `this` becomes the object being created and returned.
+
+    Explicit binding- applies object name as 'this' in call() and apply().
 
 5. Why do we need super() in an extended class?
+    In JavaScript classes, `super()` allows us to pass parameters to the parent class to that the extended class can benefit from those constructors and methods.
 
 ## Project Set up
 
@@ -53,8 +64,8 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [X] Add your Project Manager as a Reviewer on the Pull-request
 - [ ] PM then will count the HW as done by  merging the branch back into master.
 
 
@@ -78,7 +89,7 @@ Create constructors, bind methods, and create cuboids in this prototypes challen
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [X] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
