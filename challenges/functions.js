@@ -4,7 +4,7 @@
   * Create a higher-order function named consume that can take 3 parameters.
   * The first two parameters can accept any argument
   * The last parameter accepts a callback 
-  * In the body of the function return the callback with the two parameters that you created
+  * In the body of the function return the callback with the two parameters that you created.
 */
 
 
